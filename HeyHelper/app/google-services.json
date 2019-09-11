@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "842103026873",
+    "firebase_url": "https://heyhelper-5c7ed.firebaseio.com",
+    "project_id": "heyhelper-5c7ed",
+    "storage_bucket": "heyhelper-5c7ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842103026873:android:84135c8c0363b095105768",
+        "android_client_info": {
+          "package_name": "com.example.heyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842103026873-d8g46h5spborc7aaaa8bsli5h2hjr431.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heyhelper",
+            "certificate_hash": "01b0b3374592cf1df7ff0f1d6d0206ca210acc3d"
+          }
+        },
+        {
+          "client_id": "842103026873-9u9h5q1v2mm6eorldim76osb6lkof16g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK9LQP8Ac9v7At46kIWBV9FqLCxt0OYLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842103026873-9u9h5q1v2mm6eorldim76osb6lkof16g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
