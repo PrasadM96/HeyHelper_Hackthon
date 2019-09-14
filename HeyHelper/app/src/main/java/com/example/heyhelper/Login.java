@@ -1,5 +1,6 @@
 package com.example.heyhelper;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ public class Login extends AppCompatActivity {
 
     RelativeLayout rellay1, rellay2;
     Handler handler = new Handler();
+    DatabaseReference dff;
     Runnable runnable = new Runnable() {
         @Override
         public void run() {
@@ -28,5 +30,14 @@ public class Login extends AppCompatActivity {
         rellay2 = (RelativeLayout) findViewById(R.id.relay2);
 
         handler.postDelayed(runnable,2000);
+    }
+
+    public void signUp(View view) {
+        Intent intent=new Intent(this,SignUp.class);
+        startActivity(intent);
+    }
+
+    public void logIn(View view) {
+
     }
 }
