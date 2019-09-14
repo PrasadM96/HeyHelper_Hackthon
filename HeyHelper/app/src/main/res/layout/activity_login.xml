@@ -118,13 +118,16 @@
             android:layout_below="@id/linear2"
             android:layout_marginTop="30dp"
             android:text="Login"
+            android:id="@+id/login"
+            android:onClick="logIn"
             android:background="@drawable/btn_bg"
             android:textColor="@color/white"
             android:paddingLeft="40dp"
             android:paddingRight="40dp"
             android:fontFamily="sans-serif-medium"
             android:textSize="20dp"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            tools:ignore="OnClick" />
         </RelativeLayout>
 
 
