@@ -69,6 +69,7 @@
                    />
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/et_bg"
@@ -96,6 +97,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/et_bg"
@@ -118,15 +120,15 @@
             android:layout_below="@id/linear2"
             android:layout_marginTop="30dp"
             android:text="Login"
-            android:background="@drawable/btn_bg"
+            android:id="@+id/login"
             android:onClick="logIn"
+            android:background="@drawable/btn_bg"
             android:textColor="@color/white"
             android:paddingLeft="40dp"
             android:paddingRight="40dp"
             android:fontFamily="sans-serif-medium"
             android:textSize="20dp"
-            android:layout_centerHorizontal="true"
-            tools:ignore="OnClick" />
+            android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
 
