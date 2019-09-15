@@ -4,7 +4,6 @@ package com.example.heyhelper;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,22 +15,17 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import static android.support.constraint.Constraints.TAG;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DoctorFragment extends Fragment {
+public class Doctor extends Fragment {
     View view;
     Spinner spinner;
     private DatabaseReference mDatabase;
 // ...
 
-
-
-
-    public DoctorFragment() {
+    public Doctor() {
         // Required empty public constructor
     }
 
@@ -40,7 +34,8 @@ public class DoctorFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view= inflater.inflate(R.layout.fragment_doctor, container, false);
+
+        view= inflater.inflate(R.layout.fragment_do, container, false);
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
 

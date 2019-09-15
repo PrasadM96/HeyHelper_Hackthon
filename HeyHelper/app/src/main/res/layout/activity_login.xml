@@ -69,6 +69,7 @@
                    />
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/et_bg"
@@ -96,6 +97,7 @@
                     />
 
                 <EditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/et_bg"
@@ -126,8 +128,7 @@
             android:paddingRight="40dp"
             android:fontFamily="sans-serif-medium"
             android:textSize="20dp"
-            android:layout_centerHorizontal="true"
-            tools:ignore="OnClick" />
+            android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
 
@@ -142,11 +143,12 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="Sign Up"
+            android:onClick="signUp"
             android:layout_alignParentLeft="true"
             android:background="@color/gradStart"
             android:textColor="@color/white"
-            />
+            tools:ignore="OnClick" />
 
         <Button
             android:layout_width="wrap_content"
